@@ -26,7 +26,7 @@ function selector() {
     rand = Number.parseInt(((Math.random() * 10) + 1));
     file = "circuit"+rand.toString()+".svg";
     if ((rand === 1)) {
-        nums = {"V": (Number.parseInt((Math.random() * 1000)) / 10), "I": (Number.parseInt((Math.random() * 100)) / 10), "R1": (Number.parseInt((Math.random() * 10000)) / 10), "R2": (Number.parseInt((Math.random() * 10000)) / 10), "R3": (Number.parseInt((Math.random() * 10000)) / 10), "R4": (Number.parseInt((Math.random() * 10000)) / 10)};
+        nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10)};
         varj = "";
         count = Number.parseInt((Math.random() * Object.keys(nums).length));
         counter = 0;
@@ -41,7 +41,7 @@ function selector() {
         return [nums, varj, file, rand];
     } else {
         if ((rand === 2)) {
-            nums = {"V": (Number.parseInt((Math.random() * 1000)) / 10), "I": (Number.parseInt((Math.random() * 100)) / 10), "R1": (Number.parseInt((Math.random() * 10000)) / 10), "R2": (Number.parseInt((Math.random() * 10000)) / 10), "R3": (Number.parseInt((Math.random() * 10000)) / 10), "R4": (Number.parseInt((Math.random() * 10000)) / 10)};
+            nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10)};
             varj = "";
             count = Number.parseInt((Math.random() * Object.keys(nums).length));
             counter = 0;
@@ -56,7 +56,7 @@ function selector() {
             return [nums, varj, file, rand];
         } else {
             if ((rand === 3)) {
-                nums = {"V": (Number.parseInt((Math.random() * 1000)) / 10), "I": (Number.parseInt((Math.random() * 100)) / 10), "R1": (Number.parseInt((Math.random() * 10000)) / 10), "R2": (Number.parseInt((Math.random() * 10000)) / 10), "R3": (Number.parseInt((Math.random() * 10000)) / 10), "R4": (Number.parseInt((Math.random() * 10000)) / 10)};
+                nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10)};
                 varj = "";
                 count = Number.parseInt((Math.random() * Object.keys(nums).length));
                 counter = 0;
@@ -71,7 +71,7 @@ function selector() {
                 return [nums, varj, file, rand];
             } else {
                 if ((rand === 4)) {
-                    nums = {"V": (Number.parseInt((Math.random() * 1000)) / 10), "I": (Number.parseInt((Math.random() * 100)) / 10), "R1": (Number.parseInt((Math.random() * 10000)) / 10), "R2": (Number.parseInt((Math.random() * 10000)) / 10), "R3": (Number.parseInt((Math.random() * 10000)) / 10), "R4": (Number.parseInt((Math.random() * 10000)) / 10), "R5": (Number.parseInt((Math.random() * 10000)) / 10)};
+                    nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10), "R5": (Number.parseInt((Math.random() * 100)) / 10)};
                     varj = "";
                     count = Number.parseInt((Math.random() * Object.keys(nums).length));
                     counter = 0;
@@ -86,7 +86,7 @@ function selector() {
                     return [nums, varj, file, rand];
                 } else {
                     if ((rand === 5)) {
-                        nums = {"V": (Number.parseInt((Math.random() * 1000)) / 10), "I": (Number.parseInt((Math.random() * 100)) / 10), "R1": (Number.parseInt((Math.random() * 10000)) / 10), "R2": (Number.parseInt((Math.random() * 10000)) / 10), "R3": (Number.parseInt((Math.random() * 10000)) / 10), "R4": (Number.parseInt((Math.random() * 10000)) / 10), "R5": (Number.parseInt((Math.random() * 10000)) / 10)};
+                        nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10), "R5": (Number.parseInt((Math.random() * 100)) / 10)};
                         varj = "";
                         count = Number.parseInt((Math.random() * Object.keys(nums).length));
                         counter = 0;
@@ -101,7 +101,7 @@ function selector() {
                         return [nums, varj, file, rand];
                     } else {
                         if ((rand === 6)) {
-                            nums = {"V": (Number.parseInt((Math.random() * 1000)) / 10), "I": (Number.parseInt((Math.random() * 100)) / 10), "R1": (Number.parseInt((Math.random() * 10000)) / 10), "R2": (Number.parseInt((Math.random() * 10000)) / 10), "R3": (Number.parseInt((Math.random() * 10000)) / 10), "R4": (Number.parseInt((Math.random() * 10000)) / 10)};
+                            nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10)};
                             varj = "";
                             count = Number.parseInt((Math.random() * Object.keys(nums).length));
                             counter = 0;
@@ -116,7 +116,7 @@ function selector() {
                             return [nums, varj, file, rand];
                         } else {
                             if ((rand === 7)) {
-                                nums = {"V": (Number.parseInt((Math.random() * 1000)) / 10), "I": (Number.parseInt((Math.random() * 100)) / 10), "R1": (Number.parseInt((Math.random() * 10000)) / 10), "R2": (Number.parseInt((Math.random() * 10000)) / 10), "R3": (Number.parseInt((Math.random() * 10000)) / 10), "R4": (Number.parseInt((Math.random() * 10000)) / 10), "R5": (Number.parseInt((Math.random() * 10000)) / 10), "R6": (Number.parseInt((Math.random() * 10000)) / 10)};
+                                nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10), "R5": (Number.parseInt((Math.random() * 100)) / 10), "R6": (Number.parseInt((Math.random() * 100)) / 10)};
                                 varj = "";
                                 count = Number.parseInt((Math.random() * Object.keys(nums).length));
                                 counter = 0;
@@ -131,7 +131,7 @@ function selector() {
                                 return [nums, varj, file, rand];
                             } else {
                                 if ((rand === 8)) {
-                                    nums = {"V": (Number.parseInt((Math.random() * 1000)) / 10), "I": (Number.parseInt((Math.random() * 100)) / 10), "R1": (Number.parseInt((Math.random() * 10000)) / 10), "R2": (Number.parseInt((Math.random() * 10000)) / 10), "R3": (Number.parseInt((Math.random() * 10000)) / 10), "R4": (Number.parseInt((Math.random() * 10000)) / 10), "R5": (Number.parseInt((Math.random() * 10000)) / 10), "R6": (Number.parseInt((Math.random() * 10000)) / 10)};
+                                    nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10), "R5": (Number.parseInt((Math.random() * 100)) / 10), "R6": (Number.parseInt((Math.random() * 100)) / 10)};
                                     varj = "";
                                     count = Number.parseInt((Math.random() * Object.keys(nums).length));
                                     counter = 0;
@@ -146,7 +146,7 @@ function selector() {
                                     return [nums, varj, file, rand];
                                 } else {
                                     if ((rand === 9)) {
-                                        nums = {"V": (Number.parseInt((Math.random() * 1000)) / 10), "I": (Number.parseInt((Math.random() * 100)) / 10), "R1": (Number.parseInt((Math.random() * 10000)) / 10), "R2": (Number.parseInt((Math.random() * 10000)) / 10), "R3": (Number.parseInt((Math.random() * 10000)) / 10)};
+                                        nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10)};
                                         varj = "";
                                         count = Number.parseInt((Math.random() * Object.keys(nums).length));
                                         counter = 0;
@@ -161,7 +161,7 @@ function selector() {
                                         return [nums, varj, file, rand];
                                     } else {
                                         if ((rand === 10)) {
-                                            nums = {"V": (Number.parseInt((Math.random() * 1000)) / 10), "I": (Number.parseInt((Math.random() * 100)) / 10), "R1": (Number.parseInt((Math.random() * 10000)) / 10), "R2": (Number.parseInt((Math.random() * 10000)) / 10), "R3": (Number.parseInt((Math.random() * 10000)) / 10), "R4": (Number.parseInt((Math.random() * 10000)) / 10), "R5": (Number.parseInt((Math.random() * 10000)) / 10)};
+                                            nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10), "R5": (Number.parseInt((Math.random() * 100)) / 10)};
                                             varj = "";
                                             count = Number.parseInt((Math.random() * Object.keys(nums).length));
                                             counter = 0;
