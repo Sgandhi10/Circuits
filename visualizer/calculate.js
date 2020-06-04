@@ -1,10 +1,23 @@
 var big, v;
 big = 0;
+
+function normal(){
+    var image = document.getElementById("image");
+    image.src = "images/"+big[2];
+}
+function wrong(){
+    var image = document.getElementById("image");
+    image.src = "images/incorrect.svg";
+    setTimeout(normal, 1000);
+}
+
 function submit(){
     big[0][big[1]] = parseFloat(document.getElementById("ANSWER").value)
     if (verify(big[3], big[0])){
         var image = document.getElementById("image");
         image.src = "images/correct.svg";
+    } else {
+        wrong();
     }
 }
 
@@ -188,8 +201,8 @@ function dothedo(){
     }
 
     s = s.substring(0, s.length-2);
-    document.getElementById("va").innerHTML = s;
-    document.getElementById("vb").innerHTML = big[1].toString();
+    document.getElementById("va").innerHTML = "Given "+s;
+    document.getElementById("vb").innerHTML = "Find "+big[1].toString();
 }
 
 function verify(rand, nums) {
