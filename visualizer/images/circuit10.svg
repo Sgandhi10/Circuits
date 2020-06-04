@@ -1,0 +1,37 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="402" width="402" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#000" id="svg_1" height="300" width="300" y="50" x="50" stroke-width="5" fill="#fff"/>
+  <rect stroke="#ffffff" id="svg_9" height="63.000001" width="95" y="178.945314" x="5.088047" fill-opacity="null" stroke-width="5" fill="#fff"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_3" y2="192.945313" x2="69.297993" y1="192.945313" x1="31.088047" stroke-width="5" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="206.945313" x2="59.088047" y1="206.945313" x1="40.088047" stroke-width="5" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_5" y2="218.945313" x2="69.297993" y1="218.945313" x1="31.088047" stroke-width="5" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_6" y2="232.945313" x2="59.088047" y1="232.945313" x1="40.088047" stroke-width="5" stroke="#000" fill="none"/>
+  <rect id="svg_7" height="59" width="59" y="164.945313" x="106.5" fill-opacity="null" stroke-width="5" stroke="#ffffff" fill="#fff"/>
+  <rect stroke="#000" id="svg_10" height="65" width="100" y="422.061111" x="85.852899" fill-opacity="null" stroke-opacity="null" stroke-width="5" fill="#fff"/>
+  <rect id="svg_107" height="22" width="38" y="38.126556" x="174.322482" stroke-opacity="null" stroke-width="5" stroke="#000" fill="#ffffff"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_108" y="56.440962" x="179.706241" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#000000">R1</text>
+  <rect transform="rotate(90 350.1459350585938,212.0038757324219) " id="svg_125" height="22" width="38" y="201.004012" x="331.145679" stroke-opacity="null" stroke-width="5" stroke="#000" fill="#ffffff"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_126" y="210.555873" x="343.232746" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">R</text>
+  <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_127" y="227.026168" x="343.232746" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">3</text>
+  <rect id="svg_128" height="22" width="38" y="340.474121" x="180.204731" stroke-opacity="null" stroke-width="5" stroke="#000" fill="#ffffff"/>
+  <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_129" y="358.788526" x="185.58849" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#000000">R5</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_130" y="221.143921" x="76.766896" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">V</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_138" y2="107.322415" x2="350.312207" y1="107.322415" x1="50.296778" fill-opacity="null" stroke-opacity="null" stroke-width="5" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_139" y2="107.322415" x2="350.312207" y1="107.322415" x1="50.296778" fill-opacity="null" stroke-opacity="null" stroke-width="5" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_140" y2="276.731167" x2="350.900432" y1="276.731167" x1="50.885003" fill-opacity="null" stroke-opacity="null" stroke-width="5" stroke="#000" fill="none"/>
+  <rect id="svg_141" height="22" width="38" y="96.949039" x="175.498932" stroke-opacity="null" stroke-width="5" stroke="#000" fill="#ffffff"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_142" y="115.263444" x="180.882691" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#000000">R2</text>
+  <rect id="svg_143" height="22" width="38" y="265.18134" x="179.028281" stroke-opacity="null" stroke-width="5" stroke="#000" fill="#ffffff"/>
+  <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_144" y="283.495746" x="184.41204" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#000000">R4</text>
+ </g>
+</svg>
