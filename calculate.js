@@ -20,170 +20,39 @@ function submit(){
         wrong();
     }
 }
+function make_resistor(){
+    return (((Math.random() * 100)) / 10).toFixed(2);
+}
+function make_current(){
+    return (((Math.random() * 10) / 10) + .95).toFixed(2);
+}
+function make_voltage(){
+    return (((Math.random() * 100) / 10) + 95).toFixed(2);
+}
 
 function selector() {
-    var count, counter, file, nums, rand, varj;
+    var count, counter, file, nums, rand, varj, d;
     rand = Number.parseInt(((Math.random() * 10) + 1));
+    d = {"V": make_voltage, "I": make_current, "R": make_resistor};
+    rand_dict = {1: ["V", "I", "R1", "R2", "R3", "R4"], 2: ["V", "I", "R1", "R2", "R3", "R4"], 3: ["V", "I", "R1", "R2", "R3", "R4"], 4: ["V", "I", "R1", "R2", "R3", "R4", "R5"], 5:["V", "I", "R1", "R2", "R3", "R4", "R5"], 6:["V", "I", "R1", "R2", "R3", "R4"], 7: ["V", "I", "R1", "R2", "R3", "R4", "R5", "R6"], 8: ["V", "I", "R1", "R2", "R3", "R4", "R5", "R6"], 9: ["V", "I", "R1", "R2", "R3"], 10: ["V", "I", "R1", "R2", "R3", "R4"]};
     file = "circuit"+rand.toString()+".svg";
-    if ((rand === 1)) {
-        nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10)};
-        varj = "";
-        count = Number.parseInt((Math.random() * Object.keys(nums).length));
-        counter = 0;
-        for (var i in nums) {
-            if (counter == count) {
-                varj = i;
-                break;
-            }
-            counter += 1;
-        }
-        delete nums[varj];
-        return [nums, varj, file, rand];
-    } else {
-        if ((rand === 2)) {
-            nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10)};
-            varj = "";
-            count = Number.parseInt((Math.random() * Object.keys(nums).length));
-            counter = 0;
-            for (var i in nums) {
-                if (counter == count) {
-                    varj = i;
-                    break;
-                }
-                counter += 1;
-            }
-            delete nums[varj];
-            return [nums, varj, file, rand];
-        } else {
-            if ((rand === 3)) {
-                nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10)};
-                varj = "";
-                count = Number.parseInt((Math.random() * Object.keys(nums).length));
-                counter = 0;
-                for (var i in nums) {
-                    if (counter == count) {
-                        varj = i;
-                        break;
-                    }
-                    counter += 1;
-                }
-                delete nums[varj];
-                return [nums, varj, file, rand];
-            } else {
-                if ((rand === 4)) {
-                    nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10), "R5": (Number.parseInt((Math.random() * 100)) / 10)};
-                    varj = "";
-                    count = Number.parseInt((Math.random() * Object.keys(nums).length));
-                    counter = 0;
-                    for (var i in nums) {
-                        if (counter == count) {
-                            varj = i;
-                            break;
-                        }
-                        counter += 1;
-                    }
-                    delete nums[varj];
-                    return [nums, varj, file, rand];
-                } else {
-                    if ((rand === 5)) {
-                        nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10), "R5": (Number.parseInt((Math.random() * 100)) / 10)};
-                        varj = "";
-                        count = Number.parseInt((Math.random() * Object.keys(nums).length));
-                        counter = 0;
-                        for (var i in nums) {
-                            if (counter == count) {
-                                varj = i;
-                                break;
-                            }
-                            counter += 1;
-                        }
-                        delete nums[varj];
-                        return [nums, varj, file, rand];
-                    } else {
-                        if ((rand === 6)) {
-                            nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10)};
-                            varj = "";
-                            count = Number.parseInt((Math.random() * Object.keys(nums).length));
-                            counter = 0;
-                            for (var i in nums) {
-                                if (counter == count) {
-                                    varj = i;
-                                    break;
-                                }
-                                counter += 1;
-                            }
-                            delete nums[varj];
-                            return [nums, varj, file, rand];
-                        } else {
-                            if ((rand === 7)) {
-                                nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10), "R5": (Number.parseInt((Math.random() * 100)) / 10), "R6": (Number.parseInt((Math.random() * 100)) / 10)};
-                                varj = "";
-                                count = Number.parseInt((Math.random() * Object.keys(nums).length));
-                                counter = 0;
-                                for (var i in nums) {
-                                    if (counter == count) {
-                                        varj = i;
-                                        break;
-                                    }
-                                    counter += 1;
-                                }
-                                delete nums[varj];
-                                return [nums, varj, file, rand];
-                            } else {
-                                if ((rand === 8)) {
-                                    nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10), "R5": (Number.parseInt((Math.random() * 100)) / 10), "R6": (Number.parseInt((Math.random() * 100)) / 10)};
-                                    varj = "";
-                                    count = Number.parseInt((Math.random() * Object.keys(nums).length));
-                                    counter = 0;
-                                    for (var i in nums) {
-                                        if (counter == count) {
-                                            varj = i;
-                                            break;
-                                        }
-                                        counter += 1;
-                                    }
-                                    delete nums[varj];
-                                    return [nums, varj, file, rand];
-                                } else {
-                                    if ((rand === 9)) {
-                                        nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10)};
-                                        varj = "";
-                                        count = Number.parseInt((Math.random() * Object.keys(nums).length));
-                                        counter = 0;
-                                        for (var i in nums) {
-                                            if (counter == count) {
-                                                varj = i;
-                                                break;
-                                            }
-                                            counter += 1;
-                                        }
-                                        delete nums[varj];
-                                        return [nums, varj, file, rand];
-                                    } else {
-                                        if ((rand === 10)) {
-                                            nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10), "R5": (Number.parseInt((Math.random() * 100)) / 10)};
-                                            varj = "";
-                                            count = Number.parseInt((Math.random() * Object.keys(nums).length));
-                                            counter = 0;
-                                            for (var i in nums) {
-                                                if (counter == count) {
-                                                    varj = i;
-                                                    break;
-                                                }
-                                                counter += 1;
-                                            }
-                                            delete nums[varj];
-                                            return [nums, varj, file, rand];
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
+
+    nums = {};
+    for (i = 0; i<rand_dict[rand].length; i++){
+        nums[rand_dict[rand][i]] = d[rand_dict[rand][i].charAt(0)]();
     }
+    varj = "";
+    count = Number.parseInt((Math.random() * Object.keys(nums).length));
+    counter = 0;
+    for (var i in nums) {
+        if (counter == count) {
+            varj = i;
+            break;
+        }
+        counter += 1;
+    }
+    delete nums[varj];
+    return [nums, varj, file, rand];
 }
 
 function dothedo(){
