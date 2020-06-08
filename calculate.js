@@ -32,15 +32,16 @@ function make_voltage(){
 
 function selector() {
     var count, counter, file, nums, rand, varj, d;
-    var rand_li = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ]
-    rand = Number.parseInt(((Math.random() * 10) + 1));
+    var rand_li = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18];
+    rand = rand_li[Number.parseInt(((Math.random() * rand_li.length)))];
     d = {"V": make_voltage, "I": make_current, "R": make_resistor};
-    rand_dict = {1: ["V", "I", "R1", "R2", "R3", "R4"], 2: ["V", "I", "R1", "R2", "R3", "R4"], 3: ["V", "I", "R1", "R2", "R3", "R4"], 4: ["V", "I", "R1", "R2", "R3", "R4", "R5"], 5:["V", "I", "R1", "R2", "R3", "R4", "R5"], 6:["V", "I", "R1", "R2", "R3", "R4"], 7: ["V", "I", "R1", "R2", "R3", "R4", "R5", "R6"], 8: ["V", "I", "R1", "R2", "R3", "R4", "R5", "R6"], 9: ["V", "I", "R1", "R2", "R3"], 10: ["V", "I", "R1", "R2", "R3", "R4"]};
+    rand_dict = { 0: ["V", "I", "R1", "R2", "R3", "R4"], 1: ["V", "I", "R1", "R2", "R3", "R4"], 2: ["V", "I", "R1", "R2", "R3", "R4"], 3: ["V", "I", "R1", "R2", "R3", "R4", "R5"], 4: ["V", "I", "R1", "R2", "R3", "R4", "R5"], 5: ["V", "I", "R1", "R2", "R3", "R4"], 6: ["V", "I", "R1", "R2", "R3", "R4", "R5", "R6"], 7: ["V", "I", "R1", "R2", "R3", "R4", "R5", "R6"], 8: ["V", "I", "R1", "R2", "R3"], 9: ["V", "I", "R1", "R2", "R3", "R4"] };
+    v_rand_dicts = {10: ["R5", "R6"], 12: ["R5", "R6"], 14: ["R6", "R7"], 15: ["R5", "R6"], 16: ["R7", "R8"], 17: ["R7", "R8"], 18: ["R4", "R5"]}
     file = "circuit" + rand.toString() + ".svg";
     
     nums = {};
-    for (i = 0; i<rand_dict[rand].length; i++){
-        nums[rand_dict[rand][i]] = d[rand_dict[rand][i].charAt(0)]();
+    for (i = 0; i<rand_dict[rand%10].length; i++){
+        nums[rand_dict[rand%10][i]] = d[rand_dict[rand%10][i].charAt(0)]();
     }
     varj = "";
     count = Number.parseInt((Math.random() * Object.keys(nums).length));
@@ -51,6 +52,11 @@ function selector() {
             break;
         }
         counter += 1;
+    }
+    if (rand > 9) {
+        for (i = 0; i<v_rand_dict[rand].length; i++){
+            nums[v_rand_dict[rand][i]] = d[v_rand_dict[rand][i].charAt(0)]();
+        }
     }
     delete nums[varj];
     return [nums, varj, file, rand];
