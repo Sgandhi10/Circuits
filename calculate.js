@@ -57,6 +57,8 @@ function selector() {
         for (i = 0; i<v_rand_dict[rand].length; i++){
             nums[v_rand_dict[rand][i]] = d[v_rand_dict[rand][i].charAt(0)]();
         }
+        nums["V"] = make_voltage
+        varj = "R{}".format(int(Math.random()*3) + 1)
     }
     delete nums[varj];
     return [nums, varj, file, rand];
@@ -81,67 +83,80 @@ function dothedo(){
     document.getElementById("vb").innerHTML = "Find "+big[1].toString();
 }
 
+function voltage_divider(rand, nums) {
+    var new_nums = {};
+    for (var i in nums) {
+        new_nums[i] = nums[i]
+    }
+    new_nums["V"] = nums["V"] * nums["R{}".format(nums.length - 2)] / (nums["R{}".format(nums.length - 2)] + nums["R{}".format(nums.length - 3)]);
+    return verify(rand % 10, nums);
+}
+
 function verify(rand, nums) {
     var current, resistance, voltage;
-    if (rand === 0) {
-        current = nums["I"];
-        resistance = ((1 / ((1 / nums["R1"]) + (1 / nums["R2"]))) + (1 / ((1 / nums["R4"]) + (1 / nums["R3"]))));
-        voltage = nums["V"];
-        return error(current, resistance, voltage);
+    if (rand > 9) {
+        return voltage_divider(rand, nums);
     } else {
-        if (rand == 1) {
+        if (rand === 0) {
             current = nums["I"];
-            resistance = ((nums["R1"] + nums["R2"]) + (1 / ((1 / nums["R4"]) + (1 / nums["R3"]))));
+            resistance = ((1 / ((1 / nums["R1"]) + (1 / nums["R2"]))) + (1 / ((1 / nums["R4"]) + (1 / nums["R3"]))));
             voltage = nums["V"];
             return error(current, resistance, voltage);
         } else {
-            if (rand == 2) {
+            if (rand == 1) {
                 current = nums["I"];
-                resistance = (nums["R1"] + (1 / ((1 / nums["2"]) + (1 / (nums["R3"] + nums["R4"])))));
+                resistance = ((nums["R1"] + nums["R2"]) + (1 / ((1 / nums["R4"]) + (1 / nums["R3"]))));
                 voltage = nums["V"];
                 return error(current, resistance, voltage);
             } else {
-                if (rand == 3) {
+                if (rand == 2) {
                     current = nums["I"];
-                    resistance = (nums["R1"] + (1 / ((1 / nums["2"]) + (1 / ((nums["R3"] + nums["R4"]) + nums["R5"])))));
+                    resistance = (nums["R1"] + (1 / ((1 / nums["2"]) + (1 / (nums["R3"] + nums["R4"])))));
                     voltage = nums["V"];
                     return error(current, resistance, voltage);
                 } else {
-                    if (rand == 4) {
+                    if (rand == 3) {
                         current = nums["I"];
-                        resistance = (((nums["R1"] + nums["R2"]) + nums["R3"]) + (1 / ((1 / nums["R4"]) + (1 / nums["R5"]))));
+                        resistance = (nums["R1"] + (1 / ((1 / nums["2"]) + (1 / ((nums["R3"] + nums["R4"]) + nums["R5"])))));
                         voltage = nums["V"];
                         return error(current, resistance, voltage);
                     } else {
-                        if (rand == 5) {
+                        if (rand == 4) {
                             current = nums["I"];
-                            resistance = (((nums["R1"] + nums["R4"]) + nums["R2"]) + nums["R3"]);
+                            resistance = (((nums["R1"] + nums["R2"]) + nums["R3"]) + (1 / ((1 / nums["R4"]) + (1 / nums["R5"]))));
                             voltage = nums["V"];
                             return error(current, resistance, voltage);
                         } else {
-                            if (rand == 6) {
+                            if (rand == 5) {
                                 current = nums["I"];
-                                resistance = ((nums["R1"] + nums["R4"]) + (1 / (((1 / (nums["R2"] + nums["R3"])) + (1 / nums["R5"])) + (1 / nums["R6"]))));
+                                resistance = (((nums["R1"] + nums["R4"]) + nums["R2"]) + nums["R3"]);
                                 voltage = nums["V"];
                                 return error(current, resistance, voltage);
                             } else {
-                                if (rand == 7) {
+                                if (rand == 6) {
                                     current = nums["I"];
-                                    resistance = ((nums["R1"] + nums["R6"]) + (1 / (((1 / nums["R2"]) + (1 / nums["R3"])((1 / nums["R5"]))) + (1 / nums["R4"]))));
+                                    resistance = ((nums["R1"] + nums["R4"]) + (1 / (((1 / (nums["R2"] + nums["R3"])) + (1 / nums["R5"])) + (1 / nums["R6"]))));
                                     voltage = nums["V"];
                                     return error(current, resistance, voltage);
                                 } else {
-                                    if (rand == 8) {
+                                    if (rand == 7) {
                                         current = nums["I"];
-                                        resistance = ((nums["R1"] + nums["R2"]) + nums["R3"]);
+                                        resistance = ((nums["R1"] + nums["R6"]) + (1 / (((1 / nums["R2"]) + (1 / nums["R3"])((1 / nums["R5"]))) + (1 / nums["R4"]))));
                                         voltage = nums["V"];
                                         return error(current, resistance, voltage);
                                     } else {
-                                        if (rand == 9) {
+                                        if (rand == 8) {
                                             current = nums["I"];
-                                            resistance = (((1 / ((1 / nums["R1"]) + (1 / nums["R2"]))) + (1 / ((1 / nums["R4"]) + (1 / nums["R5"])))) + nums[3]);
+                                            resistance = ((nums["R1"] + nums["R2"]) + nums["R3"]);
                                             voltage = nums["V"];
                                             return error(current, resistance, voltage);
+                                        } else {
+                                            if (rand == 9) {
+                                                current = nums["I"];
+                                                resistance = (((1 / ((1 / nums["R1"]) + (1 / nums["R2"]))) + (1 / ((1 / nums["R4"]) + (1 / nums["R5"])))) + nums[3]);
+                                                voltage = nums["V"];
+                                                return error(current, resistance, voltage);
+                                            }
                                         }
                                     }
                                 }
