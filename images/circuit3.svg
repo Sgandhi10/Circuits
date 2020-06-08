@@ -27,9 +27,11 @@
   <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_36" y="123.358513" x="342.556381" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#000000">R</text>
   <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_37" y="139.358513" x="342.556381" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#000000">3</text>
   <rect id="svg_38" height="22" width="38" y="38.714797" x="106.088403" stroke-opacity="null" stroke-width="5" stroke="#000" fill="#ffffff"/>
-  <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_39" y="56.714797" x="110.088403" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#000000">R1</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_39" y="56.714797" x="110.088403" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#000000">R1</text>
   <rect transform="rotate(90 349.55639648437506,246.70957946777347) " id="svg_40" height="22" width="38" y="235.709277" x="330.556381" stroke-opacity="null" stroke-width="5" stroke="#000" fill="#ffffff"/>
   <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_41" y="245.709277" x="342.556381" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#000000">R</text>
   <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_42" y="261.709277" x="342.556381" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#000000">4</text>
+  <rect id="svg_43" height="22" width="38" y="338.709457" x="263.732659" stroke-opacity="null" stroke-width="5" stroke="#000" fill="#ffffff"/>
+  <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_44" y="356.709457" x="267.732659" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#000000">R5</text>
  </g>
 </svg>

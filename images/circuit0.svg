@@ -13,6 +13,8 @@
   <rect id="svg_7" height="59" width="59" y="164.945313" x="106.5" fill-opacity="null" stroke-width="5" stroke="#ffffff" fill="#fff"/>
   <rect stroke="#000" id="svg_10" height="65" width="100" y="317.945312" x="83.5" fill-opacity="null" stroke-opacity="null" stroke-width="5" fill="#fff"/>
   <rect id="svg_20" height="22" width="38" y="306.945313" x="115.5" stroke-opacity="null" stroke-width="5" stroke="#000" fill="#ffffff"/>
+  <line stroke="#000" stroke-linecap="null" stroke-linejoin="null" id="svg_24" y2="347.962148" x2="212.5" y1="51.945326" x1="212.5" stroke-opacity="null" stroke-width="5" fill="none"/>
+  <rect transform="rotate(90 212.5,204.94531250000003) " id="svg_23" height="22" width="38" y="193.945313" x="193.5" stroke-opacity="null" stroke-width="5" stroke="#000" fill="#ffffff"/>
   <rect id="svg_25" height="22" width="38" y="371.945313" x="115.5" stroke-opacity="null" stroke-width="5" stroke="#000" fill="#ffffff"/>
   <rect transform="rotate(90 349.50000000000006,204.94531250000003) " id="svg_26" height="22" width="38" y="193.945313" x="330.5" stroke-opacity="null" stroke-width="5" stroke="#000" fill="#ffffff"/>
   <g id="svg_27">
@@ -24,11 +26,10 @@
   </g>
   <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_28" y="389.945313" x="120.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#000000">R4</text>
   <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_29" y="324.945313" x="119.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#000000">R3</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_30" y="203.945313" x="205.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#000000">R</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_31" y="219.945313" x="205.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#000000">1</text>
   <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_32" y="203.945313" x="341.96816" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#000000">R</text>
   <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_33" y="219.945313" x="341.96816" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#000000">2</text>
   <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_34" y="217.88839" x="75.97136" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#000000">V</text>
-  <rect transform="rotate(90 349.55639648437506,124.358512878418) " id="svg_35" height="22" width="38" y="113.358513" x="330.556381" stroke-opacity="null" stroke-width="5" stroke="#000" fill="#ffffff"/>
-  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_36" y="123.358513" x="342.556381" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#000000">R</text>
-  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_37" y="139.358513" x="342.556381" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#000000">1</text>
  </g>
 </svg>

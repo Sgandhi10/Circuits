@@ -23,9 +23,10 @@ function submit(){
 
 function selector() {
     var count, counter, file, nums, rand, varj;
+    var rand_li = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ]
     rand = Number.parseInt(((Math.random() * 10) + 1));
     file = "circuit"+rand.toString()+".svg";
-    if ((rand === 1)) {
+    if ((rand === 0)) {
         nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10)};
         varj = "";
         count = Number.parseInt((Math.random() * Object.keys(nums).length));
@@ -40,7 +41,7 @@ function selector() {
         delete nums[varj];
         return [nums, varj, file, rand];
     } else {
-        if ((rand === 2)) {
+        if ((rand === 1)) {
             nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10)};
             varj = "";
             count = Number.parseInt((Math.random() * Object.keys(nums).length));
@@ -55,7 +56,7 @@ function selector() {
             delete nums[varj];
             return [nums, varj, file, rand];
         } else {
-            if ((rand === 3)) {
+            if ((rand === 2)) {
                 nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10)};
                 varj = "";
                 count = Number.parseInt((Math.random() * Object.keys(nums).length));
@@ -70,7 +71,7 @@ function selector() {
                 delete nums[varj];
                 return [nums, varj, file, rand];
             } else {
-                if ((rand === 4)) {
+                if ((rand === 3)) {
                     nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10), "R5": (Number.parseInt((Math.random() * 100)) / 10)};
                     varj = "";
                     count = Number.parseInt((Math.random() * Object.keys(nums).length));
@@ -85,7 +86,7 @@ function selector() {
                     delete nums[varj];
                     return [nums, varj, file, rand];
                 } else {
-                    if ((rand === 5)) {
+                    if ((rand === 4)) {
                         nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10), "R5": (Number.parseInt((Math.random() * 100)) / 10)};
                         varj = "";
                         count = Number.parseInt((Math.random() * Object.keys(nums).length));
@@ -100,7 +101,7 @@ function selector() {
                         delete nums[varj];
                         return [nums, varj, file, rand];
                     } else {
-                        if ((rand === 6)) {
+                        if ((rand === 5)) {
                             nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10)};
                             varj = "";
                             count = Number.parseInt((Math.random() * Object.keys(nums).length));
@@ -115,7 +116,7 @@ function selector() {
                             delete nums[varj];
                             return [nums, varj, file, rand];
                         } else {
-                            if ((rand === 7)) {
+                            if ((rand === 6)) {
                                 nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10), "R5": (Number.parseInt((Math.random() * 100)) / 10), "R6": (Number.parseInt((Math.random() * 100)) / 10)};
                                 varj = "";
                                 count = Number.parseInt((Math.random() * Object.keys(nums).length));
@@ -130,7 +131,7 @@ function selector() {
                                 delete nums[varj];
                                 return [nums, varj, file, rand];
                             } else {
-                                if ((rand === 8)) {
+                                if ((rand === 7)) {
                                     nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10), "R5": (Number.parseInt((Math.random() * 100)) / 10), "R6": (Number.parseInt((Math.random() * 100)) / 10)};
                                     varj = "";
                                     count = Number.parseInt((Math.random() * Object.keys(nums).length));
@@ -145,7 +146,7 @@ function selector() {
                                     delete nums[varj];
                                     return [nums, varj, file, rand];
                                 } else {
-                                    if ((rand === 9)) {
+                                    if ((rand === 8)) {
                                         nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10)};
                                         varj = "";
                                         count = Number.parseInt((Math.random() * Object.keys(nums).length));
@@ -160,7 +161,7 @@ function selector() {
                                         delete nums[varj];
                                         return [nums, varj, file, rand];
                                     } else {
-                                        if ((rand === 10)) {
+                                        if ((rand === 9)) {
                                             nums = {"V": (Number.parseInt((Math.random() * 100)) / 10) + 95, "I": (Number.parseInt((Math.random() * 10)) / 10) + .95, "R1": (Number.parseInt((Math.random() * 100)) / 10), "R2": (Number.parseInt((Math.random() * 100)) / 10), "R3": (Number.parseInt((Math.random() * 100)) / 10), "R4": (Number.parseInt((Math.random() * 100)) / 10), "R5": (Number.parseInt((Math.random() * 100)) / 10)};
                                             varj = "";
                                             count = Number.parseInt((Math.random() * Object.keys(nums).length));
@@ -207,61 +208,61 @@ function dothedo(){
 
 function verify(rand, nums) {
     var current, resistance, voltage;
-    if (rand === 1) {
+    if (rand === 0) {
         current = nums["I"];
         resistance = ((1 / ((1 / nums["R1"]) + (1 / nums["R2"]))) + (1 / ((1 / nums["R4"]) + (1 / nums["R3"]))));
         voltage = nums["V"];
         return error(current, resistance, voltage);
     } else {
-        if (rand == 2) {
+        if (rand == 1) {
             current = nums["I"];
             resistance = ((nums["R1"] + nums["R2"]) + (1 / ((1 / nums["R4"]) + (1 / nums["R3"]))));
             voltage = nums["V"];
             return error(current, resistance, voltage);
         } else {
-            if (rand == 3) {
+            if (rand == 2) {
                 current = nums["I"];
                 resistance = (nums["R1"] + (1 / ((1 / nums["2"]) + (1 / (nums["R3"] + nums["R4"])))));
                 voltage = nums["V"];
                 return error(current, resistance, voltage);
             } else {
-                if (rand == 4) {
+                if (rand == 3) {
                     current = nums["I"];
                     resistance = (nums["R1"] + (1 / ((1 / nums["2"]) + (1 / ((nums["R3"] + nums["R4"]) + nums["R5"])))));
                     voltage = nums["V"];
                     return error(current, resistance, voltage);
                 } else {
-                    if (rand == 5) {
+                    if (rand == 4) {
                         current = nums["I"];
                         resistance = (((nums["R1"] + nums["R2"]) + nums["R3"]) + (1 / ((1 / nums["R4"]) + (1 / nums["R5"]))));
                         voltage = nums["V"];
                         return error(current, resistance, voltage);
                     } else {
-                        if (rand == 6) {
+                        if (rand == 5) {
                             current = nums["I"];
                             resistance = (((nums["R1"] + nums["R4"]) + nums["R2"]) + nums["R3"]);
                             voltage = nums["V"];
                             return error(current, resistance, voltage);
                         } else {
-                            if (rand == 7) {
+                            if (rand == 6) {
                                 current = nums["I"];
                                 resistance = ((nums["R1"] + nums["R4"]) + (1 / (((1 / (nums["R2"] + nums["R3"])) + (1 / nums["R5"])) + (1 / nums["R6"]))));
                                 voltage = nums["V"];
                                 return error(current, resistance, voltage);
                             } else {
-                                if (rand == 8) {
+                                if (rand == 7) {
                                     current = nums["I"];
                                     resistance = ((nums["R1"] + nums["R6"]) + (1 / (((1 / nums["R2"]) + (1 / nums["R3"])((1 / nums["R5"]))) + (1 / nums["R4"]))));
                                     voltage = nums["V"];
                                     return error(current, resistance, voltage);
                                 } else {
-                                    if (rand == 9) {
+                                    if (rand == 8) {
                                         current = nums["I"];
                                         resistance = ((nums["R1"] + nums["R2"]) + nums["R3"]);
                                         voltage = nums["V"];
                                         return error(current, resistance, voltage);
                                     } else {
-                                        if (rand == 10) {
+                                        if (rand == 9) {
                                             current = nums["I"];
                                             resistance = (((1 / ((1 / nums["R1"]) + (1 / nums["R2"]))) + (1 / ((1 / nums["R4"]) + (1 / nums["R5"])))) + nums[3]);
                                             voltage = nums["V"];
