@@ -21,7 +21,7 @@ function submit(){
     }
 }
 function make_resistor(){
-    return (((Math.random() * 100)) / 10).toFixed(2);
+    return (((Math.random() * 90)) / 10 + 1).toFixed(2);
 }
 function make_current(){
     return (((Math.random() * 10) / 10) + .95).toFixed(2);
@@ -66,7 +66,7 @@ function dothedo(){
     var s;
     s = "";
     for (var key in big[0]){
-        s = s + key+"="+big[0][key].toString()+dic[key.charAt(0)]+"; "
+        s = s + key + "=" + big[0][key].toString() + dic[key.charAt(0)] + "; ";
     }
 
     s = s.substring(0, s.length-2);
@@ -77,9 +77,9 @@ function dothedo(){
 function voltage_divider(rand, nums) {
     var new_nums = {};
     for (var i in nums) {
-        new_nums[i] = nums[i]
+        new_nums[i] = nums[i];
     }
-    new_nums["V"] = nums["V"] * nums["R" + (nums.length - 2)] / (nums["R" + (nums.length - 2)] + nums["R{}" + (nums.length - 3)]);
+    new_nums["V"] = (nums["V"] * nums["R" + (nums.length - 2)]) / (nums["R" + (nums.length - 2)] + nums["R" + (nums.length - 3)]);
     return verify(rand % 10, new_nums);
 }
 
