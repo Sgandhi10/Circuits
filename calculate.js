@@ -43,9 +43,6 @@ function selector() {
     }
     varj = "";
     count = Number.parseInt((Math.random() * Object.keys(nums).length));
-    if (rand>9){
-        count = Number.parseInt((Math.random() * Object.keys(nums).length-3))+1;
-    }
     counter = 0;
     for (var i in nums) {
         if (counter == count) {
