@@ -56,7 +56,7 @@ function selector() {
         for (i = 0; i<v_rand_dict[rand].length; i++){
             nums[v_rand_dict[rand][i]] = d[v_rand_dict[rand][i].charAt(0)]();
         }
-        nums["V"] = make_voltage
+        nums["V"] = make_voltage()
         varj = "R"+(Number.parseInt(Math.random()*3) + 1).toString()
     }
     delete nums[varj];
