@@ -1,0 +1,51 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="402" width="402" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_66" y2="151.465791" x2="125.751" y1="151.465791" x1="113.902948" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_67" y2="159.17781" x2="129.188503" y1="159.17781" x1="110.788648" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_69" y2="143.044794" x2="129.188503" y1="143.044794" x1="110.788648" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_70" y2="166.649104" x2="124.7245" y1="166.649104" x1="114.236937" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_72" y2="80.949479" x2="118.834657" y1="142.511078" x1="118.834657" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_74" y2="81.591297" x2="138.333871" y1="81.591297" x1="118.259942" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <rect id="svg_75" height="19.540307" width="32.75875" y="71.246429" x="140.673823" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <text font-weight="bold" stroke="#000" transform="matrix(0.7173878893888029,0,0,0.521233558654785,46.10317227703817,52.2938449382782) " xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_76" y="61.494496" x="140.692684" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">R1</text>
+  <line stroke-width="2" stroke-linecap="null" stroke-linejoin="null" id="svg_77" y2="194.15148" x2="118.834657" y1="166.649104" x1="118.834657" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
+  <line stroke-width="2" stroke-linecap="null" stroke-linejoin="null" id="svg_78" y2="80.441867" x2="200.450288" y1="80.441867" x1="173.432573" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
+  <line stroke="#000" stroke-width="2" stroke-linecap="null" stroke-linejoin="null" id="svg_79" y2="194.810135" x2="201.091783" y1="194.810135" x1="118.259942" fill-opacity="null" stroke-opacity="null" fill="none"/>
+  <line transform="rotate(90 200.81301879882815,90.70133209228517) " stroke="#000" stroke-linecap="null" stroke-linejoin="null" id="svg_95" y2="90.701326" x2="210.849982" y1="90.701326" x1="190.776053" fill-opacity="null" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <rect transform="rotate(90 201.11485290527347,118.29063415527345) " id="svg_96" height="19.540307" width="32.75875" y="108.520482" x="184.735477" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <text transform="matrix(0.6454599574127272,0,0,0.46785075816546834,84.46609235660259,86.61997932735727) " font-weight="bold" stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_97" y="77.295573" x="166.804608" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">R2</text>
+  <line stroke="#000" transform="rotate(90 201.11790466308594,164.8425445556641) " stroke-width="2" stroke-linecap="null" stroke-linejoin="null" id="svg_98" y2="164.842542" x2="230.144079" y1="164.842542" x1="172.091742" fill-opacity="null" stroke-opacity="null" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_100" y2="121.28253" x2="267.685819" y1="79.867153" x1="267.685819" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <rect transform="rotate(90 268.9312133789063,138.98037719726565) " id="svg_102" height="19.540307" width="32.75875" y="129.210219" x="252.551837" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <text transform="matrix(0.5294321594036986,0,0,0.47069530778543356,109.13453904479483,86.79395076792504) " font-weight="bold" stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_103" y="117.867599" x="288.557301" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">R3</text>
+  <line stroke="#000" stroke-linecap="null" stroke-linejoin="null" id="svg_109" y2="298.843705" x2="232.628209" y1="232.741316" x1="232.628209" fill-opacity="null" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_110" y2="266.083906" x2="118.905528" y1="193.660705" x1="118.905528" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_111" y2="266.074784" x2="118.250675" y1="266.074784" x1="136.076104" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <line stroke="#000" stroke-linecap="null" stroke-linejoin="null" id="svg_113" y2="299.985529" x2="134.351959" y1="231.017179" x1="134.351959" fill-opacity="null" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <line stroke="#000" stroke-linecap="null" stroke-linejoin="null" id="svg_114" y2="231.591889" x2="133.20253" y1="231.591889" x1="162.51299" fill-opacity="null" stroke-opacity="null" stroke-width="2" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_115" y2="231.591889" x2="199.113755" y1="231.591889" x1="232.053494" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <rect id="svg_116" height="20.115022" width="35.632325" y="221.821736" x="164.237135" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_117" y2="299.408249" x2="161.944261" y1="299.408249" x1="134.351959" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <rect id="svg_120" height="20.115022" width="35.632325" y="289.638096" x="162.51299" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_121" y2="298.833534" x2="232.632998" y1="298.833534" x1="198.145315" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <text stroke="#000" transform="matrix(0.7207459211349487,0,0,0.5417901277542114,32.175305899232626,100.59854554571211) " font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_122" y="249.163136" x="195.983421" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">R5</text>
+  <text stroke="#000" transform="matrix(0.7213548200906459,0,0,0.5884025716034103,32.867010039234124,117.58471783317057) " font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_123" y="317.77527" x="188.875525" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">R6</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_124" y2="79.394197" x2="268.286203" y1="79.394197" x1="200.403238" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_125" y2="185.313638" x2="269.760082" y1="155.202841" x1="269.760082" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <rect transform="rotate(90 270.54415893554693,202.69189453125003) " id="svg_130" height="19.540307" width="32.75875" y="192.92174" x="254.164787" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <text style="cursor: move;" transform="matrix(0.5294321594036986,0,0,0.47069530778543356,109.13453904479483,86.79395076792504) " font-weight="bold" stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_131" y="253.223784" x="291.603867" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">R4</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_132" y2="264.883432" x2="274.720491" y1="264.883432" x1="231.85576" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_133" y2="266.669869" x2="271.373032" y1="219.720835" x1="271.373032" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+ </g>
+</svg>
