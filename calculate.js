@@ -21,13 +21,13 @@ function submit(){
     }
 }
 function make_resistor(){
-    return (((Math.random() * 90)) / 10 + 1).toFixed(2);
+    return parseFloat((((Math.random() * 90)) / 10 + 1).toFixed(2));
 }
 function make_current(){
-    return (((Math.random() * 10) / 10) + .95).toFixed(2);
+    return parseFloat((((Math.random() * 10) / 10) + .95).toFixed(2));
 }
 function make_voltage(){
-    return (((Math.random() * 100) / 10) + 95).toFixed(2);
+    return parseFloat((((Math.random() * 100) / 10) + 95).toFixed(2));
 }
 
 function selector() {
@@ -102,13 +102,13 @@ function verify(rand, nums) {
             } else {
                 if (rand == 2) {
                     current = nums["I"];
-                    resistance = (nums["R1"] + (1 / ((1 / nums["2"]) + (1 / (nums["R3"] + nums["R4"])))));
+                    resistance = (nums["R1"] + (1 / ((1 / nums["R2"]) + (1 / (nums["R3"] + nums["R4"])))));
                     voltage = nums["V"];
                     return error(current, resistance, voltage);
                 } else {
                     if (rand == 3) {
                         current = nums["I"];
-                        resistance = (nums["R1"] + (1 / ((1 / nums["2"]) + (1 / ((nums["R3"] + nums["R4"]) + nums["R5"])))));
+                        resistance = (nums["R1"] + (1 / ((1 / nums["R2"]) + (1 / ((nums["R3"] + nums["R4"]) + nums["R5"])))));
                         voltage = nums["V"];
                         return error(current, resistance, voltage);
                     } else {
