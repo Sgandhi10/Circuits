@@ -1,3 +1,10 @@
+.hide{
+  display:none;
+}
+.show{
+  
+}
+
 .slider {
   -webkit-appearance: none;
   width: 60%;

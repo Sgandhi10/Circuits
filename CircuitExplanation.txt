@@ -1,0 +1,25 @@
+
+>  Voltage is the electric potential difference, or the difference in electric potential between two points.
+   It is measure in volts and the voltage symbol is V.
+>  Current is the the rate of flow of electric charge past a point or region.
+   It is measured in amps and the current symbol is I.
+>  Resistance is the measure of an object’s opposition to the flow of current. It is measured in ohms and the resistance symbol is R.
+
+            /\
+           /  \            Ohms Law: V = IR
+          / V  \          This triangle represents that very equation: 
+         /______\                 > V = IR
+        /  I|R   \                > V/I = R
+       /____|_____\               > V/R = I  
+
+>  Series Circuits:
+	-> The way to calculate total resistance in a series circuit is to just add up all of the resistances 	    in the circuit.
+	-> Voltage drops in a series circuit. Calculate using Ohm’s Law.
+
+>  Parallel Circuits:
+	-> Total resistance in a parallel circuit is 1/((1/R1)+(1/R2)+(1/R3)+….(1/Rn)).
+	-> Current drops in a parallel circuit. Calculate using Ohm’s Law.      
+
+>  Voltage Divider:
+	-> A circuit that produces an output voltage that is a fraction of the input voltage. 
+	-> Voltage output of the divider = (Input voltage *R2)/(R1+R2)

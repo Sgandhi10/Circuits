@@ -70,6 +70,8 @@ function dothedo(){
     }
 
     s = s.substring(0, s.length-2);
+    document.getElementById('ANSWER').className="show";
+    document.getElementById('textinb').className = document.getElementById('textinb').className.replace("hide", "show");
     document.getElementById("va").innerHTML = "Given "+s;
     document.getElementById("vb").innerHTML = "Find "+big[1].toString();
 }
