@@ -79,7 +79,8 @@ function voltage_divider(rand, nums) {
     for (var i in nums) {
         new_nums[i] = nums[i];
     }
-    new_nums["V"] = (nums["V"] * nums["R" + (nums.length - 2)]) / (nums["R" + (nums.length - 2)] + nums["R" + (nums.length - 3)]);
+    var l = Object.keys(nums).length;
+    new_nums["V"] = (nums["V"] * nums["R" + (l - 2)]) / (nums["R" + (l - 2)] + nums["R" + (l - 3)]);
     return verify(rand % 10, new_nums);
 }
 
